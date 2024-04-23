@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+//An adapter to print the list of newspiece content with a data class called
+// ItemData to store a single string
 class Adapter(private val mList: List<ItemData>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 
 

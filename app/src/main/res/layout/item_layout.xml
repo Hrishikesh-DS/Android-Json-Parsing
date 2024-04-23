@@ -12,7 +12,7 @@
         android:id="@+id/contact_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Some String"
-        android:textSize="15sp"
-        />
+        android:textSize="20sp" />
 </LinearLayout>

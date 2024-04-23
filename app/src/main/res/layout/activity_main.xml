@@ -11,6 +11,7 @@
         android:id="@+id/appNameTv"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:gravity="center"
         android:text="TextView"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/userNameTv"
@@ -22,6 +23,7 @@
         android:id="@+id/userNameTv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="TextView"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +34,7 @@
         android:id="@+id/logoutTv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="TextView"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:gravity="center"
         android:text="TextView"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,6 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/appNameTv" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
