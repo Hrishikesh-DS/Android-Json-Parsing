@@ -1,6 +1,5 @@
 package com.example.androidassignment
 
-import android.content.ClipData.Item
 import android.content.ContentValues.TAG
 import android.content.Context
 import android.os.Bundle
@@ -68,7 +67,6 @@ class MainActivity : AppCompatActivity() {
     // by going into the child at each iteration and populates the application with the
     // respective view.
     private fun DisplayApp(jsonData: DataClass, binding: ActivityMainBinding) {
-        Log.d("JSONDATA", jsonData.toString())
         val textViewMap = mapOf(
             "org.nio.topMenu.appName" to binding.appNameTv,
             "org.nio.topMenu.Username" to binding.userNameTv,
